@@ -79,7 +79,7 @@ export default function About() {
             </span>
           </h2>
           <p className="reveal mt-6 text-lg text-zinc-400 max-w-3xl leading-relaxed">
-            SOD Fintech Solutions is an IT development and consultancy company focused on 
+            SOD Solutions is an IT development and consultancy company focused on 
             delivering practical, scalable, and efficient technology solutions for modern businesses. 
             We specialize in software development, digital transformation, and IT consulting services 
             tailored to meet the unique needs of each client.

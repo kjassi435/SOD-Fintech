@@ -64,13 +64,11 @@ export default function Hero() {
           </div>
           <div className="line">
             <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white leading-[1.1]">
-              SOD <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-amber-400">Fintech</span>
+              SOD{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-amber-400">
+                Solutions
+              </span>
             </h1>
-          </div>
-          <div className="line mt-3">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-zinc-300">
-              Solutions
-            </h2>
           </div>
           <div className="line mt-6 max-w-2xl mx-auto">
             <p className="text-base sm:text-lg text-zinc-400 leading-relaxed">

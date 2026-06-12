@@ -3,7 +3,14 @@
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 
-const navLinks = ["Home", "About", "Services", "Why Us", "Contact"];
+const navLinks = [
+  { label: "Home", href: "#" },
+  { label: "About", href: "#about" },
+  { label: "Services", href: "#services" },
+  { label: "Why Us", href: "#whyus" },
+  { label: "Contact", href: "#contact" },
+  { label: "Terms", href: "/terms" },
+];
 
 export default function Navbar() {
   const navRef = useRef<HTMLElement>(null);
@@ -24,19 +31,19 @@ export default function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-black/40 border-b border-white/5"
     >
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-        <span className="text-xl font-bold tracking-tight text-white">
+        <a href="/" className="text-xl font-bold tracking-tight text-white">
           SOD<span className="text-amber-400">.</span>
-        </span>
+        </a>
 
         <ul className="hidden md:flex items-center gap-8">
           {navLinks.map((link, i) => (
-            <li key={link}>
+            <li key={link.label}>
               <a
-                href={link === "Home" ? "#" : `#${link.toLowerCase().replace(" ", "")}`}
+                href={link.href}
                 className="text-sm text-zinc-400 hover:text-white transition-colors"
                 style={{ animationDelay: `${i * 0.1}s` }}
               >
-                {link}
+                {link.label}
               </a>
             </li>
           ))}
@@ -60,13 +67,13 @@ export default function Navbar() {
         <div className="md:hidden bg-black/90 backdrop-blur-md border-t border-white/5">
           <ul className="flex flex-col p-4 gap-3">
             {navLinks.map((link) => (
-              <li key={link}>
+              <li key={link.label}>
                 <a
-                  href={`#${link.toLowerCase().replace(" ", "")}`}
+                  href={link.href}
                   onClick={() => setMenuOpen(false)}
                   className="text-zinc-400 hover:text-white transition-colors"
                 >
-                  {link}
+                  {link.label}
                 </a>
               </li>
             ))}

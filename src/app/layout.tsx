@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SOD Fintech Solutions | IT Development & Consultancy",
+  title: "SOD Solutions | IT Development & Consultancy",
   description:
     "Practical, scalable, and efficient technology solutions for modern businesses. Software development, digital transformation, and IT consulting.",
   openGraph: {
-    title: "SOD Fintech Solutions",
+    title: "SOD Solutions",
     description:
       "IT Development & Consultancy — building reliable, future-ready systems.",
   },

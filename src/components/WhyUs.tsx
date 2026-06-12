@@ -66,7 +66,7 @@ export default function WhyUs() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-sm uppercase tracking-[0.3em] text-amber-400/80 mb-4">
-            Why SOD Fintech
+            Why SOD
           </p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
             Why Choose{" "}
