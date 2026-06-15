@@ -70,7 +70,7 @@ export default function Founder() {
             </h2>
             <div className="space-y-4 text-zinc-400 leading-relaxed">
               <p>
-                SOD Solutions is driven by a commitment to quality, innovation, 
+                SAWOOD AKHTAR ENTERPRISE is driven by a commitment to quality, innovation, 
                 and long-term value creation. Every project is approached with a focus on 
                 understanding the client&apos;s vision and translating it into robust technology.
               </p>

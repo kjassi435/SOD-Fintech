@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SOD Solutions | IT Development & Consultancy",
+  title: "SAWOOD AKHTAR ENTERPRISE | IT Development & Consultancy",
   description:
     "Practical, scalable, and efficient technology solutions for modern businesses. Software development, digital transformation, and IT consulting.",
   openGraph: {
-    title: "SOD Solutions",
+    title: "SAWOOD AKHTAR ENTERPRISE",
     description:
       "IT Development & Consultancy — building reliable, future-ready systems.",
   },

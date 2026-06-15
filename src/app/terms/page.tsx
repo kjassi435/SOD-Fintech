@@ -11,12 +11,12 @@ const sections = [
   {
     title: "1. Acceptance of Terms",
     content:
-      "By accessing and using SOD Solutions' services, you accept and agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services. These terms apply to all visitors, users, and others who access or use our services.",
+      "By accessing and using SAWOOD AKHTAR ENTERPRISE's services, you accept and agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services. These terms apply to all visitors, users, and others who access or use our services.",
   },
   {
     title: "2. Services Description",
     content:
-      "SOD Solutions provides technology consulting services including but not limited to:",
+      "SAWOOD AKHTAR ENTERPRISE provides technology consulting services including but not limited to:",
     list: [
       "Cloud infrastructure design and implementation",
       "Artificial Intelligence and Machine Learning solutions",
@@ -56,7 +56,7 @@ const sections = [
   {
     title: "5. Intellectual Property Rights",
     content:
-      "All content, features, and functionality of our services are owned by SOD Solutions and are protected by international copyright, trademark, and other intellectual property laws.",
+      "All content, features, and functionality of our services are owned by SAWOOD AKHTAR ENTERPRISE and are protected by international copyright, trademark, and other intellectual property laws.",
     subSections: [
       {
         heading: "Client Work Product",
@@ -98,12 +98,12 @@ const sections = [
   {
     title: "9. Limitation of Liability",
     content:
-      "TO THE MAXIMUM EXTENT PERMITTED BY LAW, SOD SOLUTIONS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES. OUR TOTAL LIABILITY SHALL NOT EXCEED THE AMOUNT PAID BY YOU FOR THE SERVICES IN THE 12 MONTHS PRECEDING THE CLAIM.",
+      "TO THE MAXIMUM EXTENT PERMITTED BY LAW, SAWOOD AKHTAR ENTERPRISE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES. OUR TOTAL LIABILITY SHALL NOT EXCEED THE AMOUNT PAID BY YOU FOR THE SERVICES IN THE 12 MONTHS PRECEDING THE CLAIM.",
   },
   {
     title: "10. Indemnification",
     content:
-      "You agree to indemnify, defend, and hold harmless SOD Solutions and its officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses arising from your violation of these terms or your use of our services.",
+      "You agree to indemnify, defend, and hold harmless SAWOOD AKHTAR ENTERPRISE and its officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses arising from your violation of these terms or your use of our services.",
   },
   {
     title: "11. Termination",
