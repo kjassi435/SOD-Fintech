@@ -133,9 +133,9 @@ const sections = [
     title: "14. Contact Information",
     content: "For questions about these Terms and Conditions, please contact us:",
     contact: [
-      { label: "Email", value: "hello@sodsolutions.dev" },
-      { label: "Phone", value: "+91 12345 67890" },
-      { label: "Address", value: "Bangalore, India" },
+      { label: "Email", value: "Sawoodakhter273@gmail.com" },
+      { label: "Phone", value: "7634853890" },
+      { label: "Address", value: "NEHAL MANJIL, 07-JAGDISHPUR, BHAGALPUR, BIHAR, 812005" },
     ],
   },
 ];

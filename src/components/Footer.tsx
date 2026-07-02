@@ -109,15 +109,15 @@ export default function Footer() {
               <p>
                 <span className="block text-zinc-400">Email</span>
                 <a
-                  href="mailto:hello@sodsolutions.dev"
+                  href="mailto:Sawoodakhter273@gmail.com"
                   className="hover:text-amber-400 transition-colors"
                 >
-                  hello@sodsolutions.dev
+                  Sawoodakhter273@gmail.com
                 </a>
               </p>
               <p>
                 <span className="block text-zinc-400">Phone</span>
-                <span>+91 12345 67890</span>
+                <span>7634853890</span>
               </p>
             </div>
           </div>
