@@ -40,16 +40,12 @@ export default function Contact() {
     const form = e.currentTarget;
     const data = new FormData(form);
 
+    data.append("_cc", "Sawoodakhter273@gmail.com");
+
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("https://formspree.io/f/mzdljnzb", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          name: data.get("name"),
-          email: data.get("email"),
-          subject: data.get("subject"),
-          message: data.get("message"),
-        }),
+        body: data,
       });
 
       if (!res.ok) throw new Error("Failed");
